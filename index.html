@@ -14,17 +14,15 @@
   </head>
   <body>
     <header class="bg-amber-100">
-      <nav class="flex items-center justify-between mr-8">
+      <nav class="lg:flex items-center justify-between mr-8">
         <div>
-          <img class="w-64 ml-14" src="./icons/logo.png" alt="" />
+          <img class="w-44 lg:w-64 ml-14" src="./icons/logo.png" alt="" />
         </div>
-        <div class="space-x-14 text-xl font-semibold">
-          
+        <div class="flex flex-col pl-14 lg:space-x-14 text-xl font-semibold">
           <a href="">Home</a>
           <a href="">Product</a>
           <a href="">About Us</a>
           <a href="">Contact us</a>
-          
         </div>
       </nav>
       <!-- <nav class="w-full">
@@ -52,10 +50,11 @@
       </nav> -->
 
       <section>
-        <div class="mx-20 flex justify-between items-center">
-          <div class="space-y-6">
+        <div class="lg:flex justify-between items-center p-20">
+          <div class="">
             <h1 class="text-6xl font-bold">
-              <span class="text-orange-400 text-6xl font-bold"
+              <span
+                class="text-2xl font-bold lg:text-orange-400 text-6xl font-bold"
                 >Be the Penguins</span
               >
               <br />of Winter
@@ -71,16 +70,21 @@
               NOW
             </button>
           </div>
-          <div>
+          <div class="w-full">
             <img src="./images/model.png" alt="" />
           </div>
         </div>
       </section>
     </header>
+
     <main class="container mx-auto">
-      <h1 class="text-5xl my-12 mx-14 font-bold">Woman Jacket</h1>
-      <div class="grid grid-cols-3 mx-8 my-5">
-        <div class="card card-compact w-96 bg-base-100 shadow-xl">
+      <h1 class="text-2xl font-bold lg:text-5xl my-12 mx-14 font-bold">
+        Woman Jacket
+      </h1>
+      <div
+        class="grid grid-cols-1 space-y-10 m-auto my-9 lg:grid-cols-3 space-x-4 mx-8 my-5"
+      >
+        <div class="card card-compact shadow-xl">
           <figure>
             <img
               class="h-60 shadow-lg"
@@ -98,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class="card card-compact w-96 bg-base-100 shadow-xl">
+        <div class="card card-compact shadow-xl">
           <figure>
             <img class="h-60" src="./images/jacket-2.png" alt="Shoes" />
           </figure>
@@ -112,7 +116,7 @@
             </div>
           </div>
         </div>
-        <div class="card card-compact w-96 bg-base-100 shadow-xl">
+        <div class="card card-compact shadow-xl">
           <figure>
             <img class="h-60" src="./images/jacket-3.png" alt="Shoes" />
           </figure>
@@ -129,9 +133,11 @@
       </div>
       <section>
         <div class="mx-8 my-5">
-          <h1 class="text-5xl my-12 mx-5 font-bold">Men's Jacket</h1>
-          <div class="grid grid-cols-3 gap-14 mx-8 my-5">
-            <div class="card w-96 bg-base-100 shadow-xl">
+          <h1 class="text-2xl font-bold lg:text-5xl my-12 mx-5 font-bold">
+            Men's Jacket
+          </h1>
+          <div class="grid grid-cols-1 m-auto lg:grid-cols-3 gap-14 mx-8 my-5">
+            <div class="card shadow-xl">
               <figure>
                 <img class="h-60" src="./images/jacket-4.png" alt="Shoes" />
               </figure>
@@ -144,7 +150,7 @@
                 </div>
               </div>
             </div>
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div class="card shadow-xl">
               <figure>
                 <img class="h-60" src="./images/jacket-5.png" alt="Shoes" />
               </figure>
@@ -157,7 +163,7 @@
                 </div>
               </div>
             </div>
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div class="card shadow-xl">
               <figure>
                 <img class="h-60" src="./images/jacket-6.png" alt="Shoes" />
               </figure>
@@ -175,7 +181,9 @@
       </section>
 
       <section>
-        <div class="flex justify-between my-24 border-4 container mx-auto">
+        <div
+          class="flex flex-col m-auto lg:flex justify-between my-24 container mx-auto"
+        >
           <div>
             <div class="flex justify-between m-6 shadow-lg rounded-lg py-10">
               <div>
